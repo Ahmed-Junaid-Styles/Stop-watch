@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: purple;
+}
+#stop-watch{
+    height: 7vw;
+    width: 30vw;
+    border: 0.3vw solid black;
+    margin: auto;
+    margin-top: 2vw;
+    font-size: 5vw;
+}
+#buttons{
+    height: 2vw;
+    width: 20vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+}
+.buttons{
+    border: none;
+    padding: 0.1vw 1vw;
+    font-size: 1.2em;
+    border-radius: 0.5vw;
+    color: white;
+    margin: 0 1vw;
+}
+#start{
+    background-color: green;
+}
+#stop{
+    background-color: blue;
+}
+#reset{
+    background-color: red;
+}
+.text{
+    font-size: 1vw;
+    font-weight: 700;
+}
